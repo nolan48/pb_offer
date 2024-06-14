@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ asset('css/vars.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+  <style>
+   a, button, input, select, h1, h2, h3, h4, h5, * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+       -webkit-font-smoothing: antialiased;
+   }
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+   </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="homepage">
+    <div class="header">
+      <div class="frame-2">
+        <div class="logo">
+          <div class="machi">MACHI</div>
+        </div>
+        <div class="frame-3">
+          <div class="navbar-nav">
+            <div class="btn-nav-item">
+              <div class="sub">
+                <div class="div">商品列表</div>
+              </div>
+            </div>
+            <div class="btn-nav-item">
+              <div class="sub">
+                <div class="div">客製化甜點</div>
+              </div>
+            </div>
+            <div class="btn-nav-item">
+              <div class="sub">
+                <div class="div">甜點課程</div>
+              </div>
+            </div>
+            <div class="btn-nav-item">
+              <div class="sub">
+                <div class="div">文章專區</div>
+              </div>
+            </div>
+            <div class="btn-nav-item">
+              <div class="sub2">
+                <div class="div">會員專區</div>
+              </div>
+            </div>
+          </div>
+          <div class="nav">
+            <img class="icon-cart" src="{{ asset('images/icon-cart0.svg') }}" />
+            <img class="icon-user" src="{{ asset('images/icon-user0.svg') }}" />
+            <img class="icon-search" src="{{ asset('images/icon-search0.svg') }}" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-section">
+      <img class="tis-the-most-1-1" src="{{ asset('images/tis-the-most-1-10.png') }}" />
+      <img class="arrow" src="{{ asset('images/arrow0.svg') }}" />
+      <img class="arrow2" src="{{ asset('images/arrow1.svg') }}" />
+    </div>
+    <div class="section-1">
+      <div class="introduce">
+        <img class="photo" src="{{ asset('images/photo0.svg') }}" />
+        <div class="info">
+          <div class="div2">關於我們</div>
+          <div class="since-2015">Since 2015</div>
+          <div class="machi-machi">
+            「machi」的名字源自日語中的「街」，象徵著一條小街道，充滿了美好的氛圍與風情，就像來到一個溫馨舒適的地方，您可以在這裡放鬆身心，品嚐法式甜點的絕妙滋味。
+            <br />
+            <br />
+            每一個甜點都是我們匠心獨具的手工製作，融合了優質的食材和法式烘焙的精髓。無論是我們的招牌歐式酥皮、精緻巧克力蛋糕還是香濃卡布奇諾，都是我們用心製作的甜點藝術品，讓您的味蕾享受到一場獨特的美食之旅。
+            <br />
+            <br />
+            我們希望「machi」不僅僅是一個甜點店，更是您享受甜蜜時光的去處。無論是與摯友共度閒暇時光，或是獨自一人沉浸在書本與甜點之間，我們都將竭盡所能，為您帶來最愉悅的體驗。
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-3" style="background: url('{{ asset('images/section-30.png') }}') center; background-size: cover; background-repeat: no-repeat;">
+      <div class="frame-5">
+        <div class="frame-82">
+          <div class="title">
+            <div class="div3">最新消息</div>
+            <img class="line-1" src="{{ asset('images/line-10.svg') }}" />
+          </div>
+          <div class="frame-39">
+            <div class="card-1">
+              <img class="img-ins-x" src="{{ asset('images/img-ins-x0.png') }}" />
+              <div class="info-section">
+                <div class="sub3">
+                  <div class="div4">踏入春日的序曲，編寫生活的篇章</div>
+                </div>
+                <div class="card-body">
+                  <div class="_2024-02-20">2024.02.20</div>
+                </div>
+                <div class="btn-button">
+                  <div class="div5">more</div>
+                </div>
+              </div>
+            </div>
+            <div class="card-1">
+              <img class="img-ins-x" src="{{ asset('images/img-ins-x1.png') }}" />
+              <div class="info-section">
+                <div class="sub3">
+                  <div class="div4">踏入春日的序曲，編寫生活的篇章</div>
+                </div>
+                <div class="card-body">
+                  <div class="_2024-02-20">2024.02.20</div>
+                </div>
+                <div class="btn-button">
+                  <div class="div5">more</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-2" style="background: url('{{ asset('images/section-20.png') }}') center; background-size: cover; background-repeat: no-repeat;">
+      <div class="card">
+        <div class="frame-81">
+          <div class="title">
+            <div class="div3">熱門課程</div>
+            <img class="line-12" src="{{ asset('images/line-11.svg') }}" />
+          </div>
+          <div class="frame-11">
+            <div class="card-3">
+              <img class="img-ins-x2" src="{{ asset('images/img-ins-x2.png') }}" />
+              <div class="frame-52">
+                <div class="div6">法式甜點課程</div>
+              </div>
+              <div class="frame-124"></div>
+              <div class="icon-heart-default">
+                <img class="icon-heart-default2" src="{{ asset('images/icon-heart-default1.svg') }}" />
+              </div>
+            </div>
+            <div class="card-32">
+              <img class="img-ins-x2" src="{{ asset('images/img-ins-x3.png') }}" />
+              <div class="frame-52">
+                <div class="div6">法式甜點課程</div>
+              </div>
+              <div class="frame-124"></div>
+              <div class="icon-heart-default">
+                <img class="icon-heart-default3" src="{{ asset('images/icon-heart-default3.svg') }}" />
+              </div>
+            </div>
+            <div class="card-32">
+              <img class="img-ins-x2" src="{{ asset('images/img-ins-x4.png') }}" />
+              <div class="frame-52">
+                <div class="div6">法式甜點課程</div>
+              </div>
+              <div class="frame-124"></div>
+              <div class="icon-heart-default">
+                <img class="icon-heart-default4" src="{{ asset('images/icon-heart-default5.svg') }}" />
+              </div>
+            </div>
+            <div class="card-32">
+              <img class="img-ins-x2" src="{{ asset('images/img-ins-x5.png') }}" />
+              <div class="frame-52">
+                <div class="div6">法式甜點課程</div>
+              </div>
+              <div class="frame-124"></div>
+              <div class="icon-heart-default">
+                <img class="icon-heart-default5" src="{{ asset('images/icon-heart-default7.svg') }}" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-80">
+          <div class="title">
+            <div class="div3">熱銷商品</div>
+            <img class="line-13" src="{{ asset('images/line-12.svg') }}" />
+          </div>
+          <div class="frame-11">
+            <div class="card-2">
+              <img class="img-ins-x3" src="{{ asset('images/img-ins-x6.png') }}" />
+              <div class="frame-52">
+                <div class="div6">北海道生乳雙層草莓蛋糕</div>
+              </div>
+              <div class="frame-124">
+                <div class="nt-600">NT$600</div>
+              </div>
+              <div class="icon-heart-default">
+                <img class="icon-heart-default6" src="{{ asset('images/icon-heart-default9.svg') }}" />
+              </div>
+            </div>
+            <div class="card-2">
+              <img class="img-ins-x3" src="{{ asset('images/img-ins-x7.png') }}" />
+              <div class="frame-52">
+                <div class="div6">北海道生乳雙層草莓蛋糕</div>
+              </div>
+              <div class="frame-124">
+                <div class="nt-600">NT$600</div>
+              </div>
+              <div class="icon-heart-default">
+                <img class="icon-heart-default7" src="{{ asset('images/icon-heart-default11.svg') }}" />
+              </div>
+            </div>
+            <div class="card-2">
+              <img class="img-ins-x3" src="{{ asset('images/img-ins-x8.png') }}" />
+              <div class="frame-52">
+                <div class="div6">北海道生乳雙層草莓蛋糕</div>
+              </div>
+              <div class="frame-124">
+                <div class="nt-600">NT$600</div>
+              </div>
+              <div class="icon-heart-default">
+                <img class="icon-heart-default8" src="{{ asset('images/icon-heart-default13.svg') }}" />
+              </div>
+            </div>
+            <div class="card-2">
+              <img class="img-ins-x3" src="{{ asset('images/img-ins-x9.png') }}" />
+              <div class="frame-52">
+                <div class="div6">北海道生乳雙層草莓蛋糕</div>
+              </div>
+              <div class="frame-124">
+                <div class="nt-600">NT$600</div>
+              </div>
+              <div class="icon-heart-default">
+                <img class="icon-heart-default9" src="{{ asset('images/icon-heart-default15.svg') }}" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-4">
+      <div class="frame-12">
+        <img class="illustration-1-1" src="{{ asset('images/illustration-1-10.png') }}" />
+        <img class="illustration-2-1" src="{{ asset('images/illustration-2-10.png') }}" />
+        <img class="illustration-3-1" src="{{ asset('images/illustration-3-10.png') }}" />
+        <img class="illustration-4-1" src="{{ asset('images/illustration-4-10.png') }}" />
+        <img class="illustration-5-1" src="{{ asset('images/illustration-5-10.png') }}" />
+      </div>
+    </div>
+    <div class="footer">
+      <img class="background" src="{{ asset('images/background0.svg') }}" />
+      <div class="footer-content">
+        <div class="footer-info">
+          <div class="f-title">
+            <div class="div7">會員專區</div>
+          </div>
+          <div class="f-detail">
+            <div class="paragraph-en-x">我的帳戶</div>
+            <div class="paragraph-en-x">訂單查詢</div>
+            <div class="paragraph-en-x">收藏清單</div>
+            <div class="paragraph-en-x">專屬優惠券</div>
+          </div>
+        </div>
+        <div class="footer-info">
+          <div class="f-title">
+            <div class="div8">客戶服務</div>
+          </div>
+          <div class="f-detail2">
+            <div class="paragraph-en-x">宅配須知</div>
+            <div class="paragraph-en-x">退款政策</div>
+            <div class="paragraph-en-x">收藏清單</div>
+            <div class="paragraph-en-x">服務條款</div>
+          </div>
+        </div>
+        <div class="footer-info2">
+          <div class="f-title2">
+            <div class="div9">關於我們</div>
+          </div>
+          <div class="f-detail">
+            <div class="div10">
+              <img class="icon-pin" src="{{ asset('images/icon-pin0.svg') }}" />
+              <div class="paragraph-en-x2">320桃園市中壢區新生路421號</div>
+            </div>
+            <div class="div10">
+              <img class="icon-mail" src="{{ asset('images/icon-mail0.svg') }}" />
+              <div class="paragraph-en-x3">machi@gmail.com</div>
+            </div>
+            <div class="div11">
+              <img class="icon-phone" src="{{ asset('images/icon-phone0.svg') }}" />
+              <div class="paragraph-en-x3">(03)452-1234</div>
+            </div>
+            <div class="div10">
+              <img class="icon-clock" src="{{ asset('images/icon-clock0.svg') }}" />
+              <div class="paragraph-en-x3"> 12:00-20:00</div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-logo">
+          <div class="logo">
+            <div class="machi2">MACHI</div>
+          </div>
+          <div class="footer-social-media">
+            <img class="icon-instagram-1" src="{{ asset('images/icon-instagram-10.svg') }}" />
+            <img class="icon-facebook-1" src="{{ asset('images/icon-facebook-10.svg') }}" />
+            <img class="icon-line-1" src="{{ asset('images/icon-line-10.svg') }}" />
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="machi-all-rights-reserved">machi © All rights reserved.</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
